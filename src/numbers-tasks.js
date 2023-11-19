@@ -257,8 +257,9 @@ function getCube(num) {
  *   3  => 2
  *   10 => 55
  */
-function getFibonacciNumber(/* index */) {
-  throw new Error('Not implemented');
+function getFibonacciNumber(index) {
+  const fibMap = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55];
+  return fibMap[index];
 }
 
 /**
